@@ -31,11 +31,7 @@ const App = () => {
   // console.log(getProducts());
 
   // getProducts();
-  return (
-    <div className="App">
-      <h1></h1>
-    </div>
-  );
+  return <div className="App"></div>;
 };
 
 export default App;
