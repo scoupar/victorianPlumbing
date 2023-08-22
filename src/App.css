@@ -1,12 +1,21 @@
+* {
+  /* border: 2px solid black; */
+}
+
 .App {
+  padding: 5rem;
   text-align: center;
+  background-color: rgb(242, 240, 234);
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .container {
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 100%;
+  min-height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 3rem;
+  row-gap: 3rem;
+  margin: auto;
+  width: 75%;
+  justify-items: center;
 }
