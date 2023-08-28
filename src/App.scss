@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  background-color: rgb(242, 240, 234);
+  // font-family: "Source Sans Pro", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  min-height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 3rem;
+  row-gap: 3rem;
+  margin: auto;
+  width: 75%;
+  justify-items: center;
+}
+
+.sort-section {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0 2rem 0;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.sort-input {
+  margin-right: 2rem;
+  background: rgb(255, 255, 255);
+  height: 3rem;
+  width: 10rem;
+  border: none;
+}
+
+.sort-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  width: 10rem;
+  font-size: x-small;
+  padding: none;
+  height: 1rem;
+}
+
+.more-button {
+  border: none;
+  background-color: rgb(111, 111, 111);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.more-button:hover {
+  background-color: rgb(50, 49, 49);
+  cursor: pointer;
+}
+
+.total-products {
+  margin-top: 2rem;
+  font-weight: 900;
+}
+
+.product-menu {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(63, 63, 63);
+}
+
+.product-button {
+  background-color: rgb(63, 63, 63);
+  color: rgb(242, 240, 234);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  border: none;
+  padding: 1rem;
+
+  &:hover {
+    background-color: rgb(242, 240, 234);
+    color: rgb(63, 63, 63);
+    cursor: pointer;
+  }
+}
